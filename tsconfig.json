@@ -21,6 +21,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/cours/[matiere]/[subdomaine]/[field]/page.jsx", "app/api/conference/route.js", "app/api/auth/login/route.js", "app/dashboard/admin/Conference.jsx", "app/dashboard/admin/page.jsx", "app/dashboard/DashboardNav.jsx", "app/blog/page.jsx", "store.js"],
   "exclude": ["node_modules"]
 }
